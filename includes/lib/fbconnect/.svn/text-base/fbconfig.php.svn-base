@@ -1,0 +1,4 @@
+<?php
+    $fb_api_key = '75cfded145be7acba7bde74cc230fd3b';
+	$fb_secret = '0643077dcef4197fc28554251e15e5e0';
+?>

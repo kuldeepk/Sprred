@@ -1,0 +1,8 @@
+<?php
+	class TwConfig {
+		/* Consumer key from twitter */
+		protected $consumer_key = '89uRoxsxiI8LEBMyoT6IA';
+		/* Consumer Secret from twitter */
+		protected $consumer_secret = '8oRxWKxC37uhfrm52MnJ5YifQQFR7AZBUj2WGo8zFAw';		
+	}
+?>

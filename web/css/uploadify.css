@@ -1,0 +1,22 @@
+.uploadifyQueueItem {
+	font: 11px Verdana, Geneva, sans-serif;
+	margin:5px;
+	padding:5px;
+	height:15px;
+}
+.uploadifyQueueItem span { position:relative; z-index:20; margin-left:5px; }
+.uploadifyError .uploadifyProgressBar {
+	border: 1px solid #FBCBBC !important;
+	background-color: #FDE5DD !important;
+}
+.uploadifyQueueItem .cancel { float: right; position:relative; z-index:100; margin:1px 3px 0 0; }
+.uploadifyProgress {
+	background-color: #FFFFFF;
+	border: 1px solid #E5E5E5;
+	position:relative; z-index:10; top:-15px;
+}
+.uploadifyProgressBar {
+	background-color: #0099FF;
+	width: 1px;
+	height:20px;
+}

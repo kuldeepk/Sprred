@@ -1,0 +1,4 @@
+#search-box-s { width:300px; margin:0px auto; padding-top:10px; }
+form#search-box { padding:20px; margin:20px; text-align:center; }
+#users-list { width:740px;  }
+#users-list .item h2 a { font-size:18px; font-weight:bold; }

@@ -1,0 +1,89 @@
+#lightbox .top { background:url(../images/widget-bg-top.png) repeat-x; }
+#lightbox .bottom { background:url(../images/widget-bg-bottom.png) repeat-x;}
+#lightbox .left_side { background:url(../images/widget-bg-left.png) repeat-y;}
+#lightbox .right_side { background:url(../images/widget-bg-right.png) repeat-y;}
+
+#lightbox .tl,#lightbox .tr,#lightbox .bl,#lightbox .br { background: url('../images/round.png'); height: 8px; width: 9px; overflow: hidden;} 
+
+#lightbox .tr {
+  background-position: right top;
+}
+
+#lightbox .bl {
+  background-position: left bottom;
+}
+
+#lightbox .br {
+background-position: right bottom; 
+}
+
+#lightbox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1510;
+  text-align: left;
+}
+
+#lightbox .popup {
+  position: relative;
+}
+
+#lightbox table {
+  border-collapse: collapse;
+}
+
+#lightbox td {
+  border-bottom: 0;
+  padding: 0;
+}
+
+#lightbox .body {
+  padding: 10px;
+  background: #fff;
+  min-width: 370px;
+}
+
+#lightbox .loading {
+  text-align: center;
+}
+
+#lightbox .image {
+  text-align: center;
+}
+
+#lightbox img {
+  border: 0;
+  margin: 0;
+}
+
+#lightbox .footer {
+  border-top: 1px solid #DDDDDD;
+  padding-top: 5px;
+  margin-top: 10px;
+  text-align: right;
+}
+
+#lightbox .close_image { float:right; }
+
+#lightbox_overlay {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height:100%;
+  width:100%;
+}
+
+.lightbox_hide {
+  z-index:-100;
+}
+
+.lightbox_overlayBG {
+  background-color: #000;
+  z-index: 1500;
+}
+
+* html #lightbox_overlay { /* ie6 hack */
+  position: absolute;
+  height: expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight + 'px');
+}
